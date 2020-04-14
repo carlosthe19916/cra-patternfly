@@ -4,11 +4,15 @@ import { AppRoutes } from "./Routes";
 
 import "./App.scss";
 
+import { DefaultLayout } from "./components/DefaultLayout";
+
 const App: React.FC = () => {
   return (
     <React.Fragment>
       <HashRouter>
-        <AppRoutes />
+        <DefaultLayout>
+          <AppRoutes />
+        </DefaultLayout>
       </HashRouter>
     </React.Fragment>
   );
