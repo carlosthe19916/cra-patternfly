@@ -5,7 +5,7 @@ import {
   EmptyState,
   EmptyStateVariant,
   Title,
-  EmptyStateIcon
+  EmptyStateIcon,
 } from "@patternfly/react-core";
 import { UnknownIcon } from "@patternfly/react-icons";
 

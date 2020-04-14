@@ -1,5 +1,5 @@
-import { AxiosError } from 'axios';
-import { createAction } from 'typesafe-actions';
+import { AxiosError } from "axios";
+import { createAction } from "typesafe-actions";
 
 interface Item {
   name: string;
@@ -8,7 +8,7 @@ interface Item {
   onCancel: () => void;
 }
 
-export const openModal = createAction('dialog/delete/open')<Item>();
-export const closeModal = createAction('dialog/delete/close')<void>();
-export const processing = createAction('dialog/delete/processing')<void>();
-export const error = createAction('dialog/delete/error')<AxiosError>();
+export const openModal = createAction("dialog/delete/open")<Item>();
+export const closeModal = createAction("dialog/delete/close")<void>();
+export const processing = createAction("dialog/delete/processing")<void>();
+export const error = createAction("dialog/delete/error")<AxiosError>();

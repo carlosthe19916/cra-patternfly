@@ -1,9 +1,10 @@
-import { RootState } from '../rootReducer';
-import { stateKey } from './reducer';
+import { RootState } from "../rootReducer";
+import { stateKey } from "./reducer";
 
 export const deleteDialogState = (state: RootState) => state[stateKey];
 
-export const isProcessing = (state: RootState) => deleteDialogState(state).isProcessing;
+export const isProcessing = (state: RootState) =>
+  deleteDialogState(state).isProcessing;
 
 export const isOpen = (state: RootState) => deleteDialogState(state).isOpen;
 

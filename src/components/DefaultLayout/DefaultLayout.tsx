@@ -11,7 +11,6 @@ export class DefaultLayout extends React.Component<
   HorizontalLayoutProps,
   State
 > {
-
   render() {
     const { children } = this.props;
 

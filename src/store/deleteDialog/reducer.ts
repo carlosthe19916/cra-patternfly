@@ -1,7 +1,7 @@
-import { ActionType, getType } from 'typesafe-actions';
-import { closeModal, error, openModal, processing } from './actions';
+import { ActionType, getType } from "typesafe-actions";
+import { closeModal, error, openModal, processing } from "./actions";
 
-export const stateKey = 'deleteDialog';
+export const stateKey = "deleteDialog";
 
 export type DeleteDialogState = Readonly<{
   isOpen: boolean;
@@ -16,9 +16,9 @@ export const defaultState: DeleteDialogState = {
   isOpen: false,
   isProcessing: false,
   isError: false,
-  name: '',
-  type: '',
-  onDelete: () => { },
+  name: "",
+  type: "",
+  onDelete: () => {},
 };
 
 export type DeleteDialogAction = ActionType<

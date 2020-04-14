@@ -24,11 +24,9 @@ export class SidebarApp extends React.Component<Props, State> {
         </NavList>
       </Nav>
     );
-  }
+  };
 
   render() {
-    return (
-      <PageSidebar nav={this.renderPageNav()} theme="dark" />
-    );
+    return <PageSidebar nav={this.renderPageNav()} theme="dark" />;
   }
 }
