@@ -1,10 +1,10 @@
 import React from "react";
 import { HashRouter } from "react-router-dom";
-import { AppRoutes } from "./Routes";
 
 import "./App.scss";
 
-import { DefaultLayout } from "./components/DefaultLayout";
+import { AppRoutes } from "./Routes";
+import { DefaultLayout } from "./layout";
 
 const App: React.FC = () => {
   return (
