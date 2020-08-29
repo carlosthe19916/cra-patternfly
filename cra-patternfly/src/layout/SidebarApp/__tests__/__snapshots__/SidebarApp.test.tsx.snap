@@ -1,0 +1,50 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test snapshot 1`] = `
+<PageSidebar
+  nav={
+    <Nav
+      aria-label="Nav"
+      id="nav-primary-simple"
+      onSelect={[Function]}
+      onToggle={[Function]}
+      ouiaSafe={true}
+      theme="dark"
+    >
+      <NavGroup
+        title="Group1"
+      >
+        <NavItem>
+          <ForwardRef
+            activeClassName="pf-m-current"
+            to="/page1"
+          >
+            Page1
+          </ForwardRef>
+        </NavItem>
+        <NavItem>
+          <ForwardRef
+            activeClassName="pf-m-current"
+            to="/page2"
+          >
+            Page2
+          </ForwardRef>
+        </NavItem>
+      </NavGroup>
+      <NavGroup
+        title="Group2"
+      >
+        <NavItem>
+          <ForwardRef
+            activeClassName="pf-m-current"
+            to="/page3"
+          >
+            Page3
+          </ForwardRef>
+        </NavItem>
+      </NavGroup>
+    </Nav>
+  }
+  theme="dark"
+/>
+`;
